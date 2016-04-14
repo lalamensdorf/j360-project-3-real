@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta content="Multiple Choice Quiz">
+<meta name="Author" content="Lauren Lamensdorf">
+<title>Multiple Choice Quiz</title>
+<link href="QUIZCSSSTYLE.css" rel="stylesheet" type="text/css">
+<script src="QUIZJS.js"></script>
+</head>
+
+
+<body>
+  <h2 class="quizHeader">Movie Quiz!</h2>
+  
+	
+	  	<div>
+	  		<p class="question">Who plays Catness Everdeen in the Hunger Games?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Jennifer Lawerence</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Scarlett Johansen</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Natalie Portman</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Mila Kunis</label>
+    		</ul>
+	  	</div>
+	  
+	 
+	  	<div>
+	  		<p class="question">What movie did Leonardo DiCaprio win an oscar for?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Titanic</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="1">
+	        <label id="correctString2">The Revenant</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Wolf of Wall Street</label>
+	        <br>
+	        <input class="answer" type="radio" name="q2" value="0">
+	        <label>Catch Me if You Can</label>
+	    	</ul>
+	  	</div>
+	  
+	  	<div>
+	  		<p class="question">What movie won best picture at the 2016 Oscars?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Star Wars</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="1">
+	        <label id="correctString3">Spotlight</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Room</label>
+	        <br>
+	        <input class="answer" type="radio" name="q3" value="0">
+	        <label>Mad Max</label>
+	    	</ul>
+		</div>
+	  
+	  	<div>
+	  		<p class="question">Who plays the voive of Meg Griffen in Family Guy?</p>
+
+	    	<ul>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Keira Knightly</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="1">
+	        <label id="correctString4">Mila Kunis</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Dakota Fanning</label>
+	        <br>
+	        <input class="answer" type="radio" name="q4" value="0">
+	        <label>Natalie Portman</label>
+    		</ul>
+	  	</div>
+        
+        <div>
+	  		<p class="question">Which of the following is NOT an Adam Sandler Movie?</p>
+
+	    	<ul>
+	    	<input class="answer" type="radio" name="q1" value="1">
+	        <label id="correctString1">Pineapple Express</label>
+	    	<br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Billy Madison</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Happy Gilmore</label>
+	        <br>
+	        <input class="answer" type="radio" name="q1" value="0">
+	        <label>Grown-ups</label>
+    		</ul>
+	  	</div>
+	 
+<br/>
+  <div class="submitter">
+          <input class="quizSubmit" id="submitButton" onClick="submitQuiz()"
+          type="submit" value="Submit" />
+    </div>
+  
+	 <div>
+    	<h2 class="quizScore" id="userScore"></h2>
+    </div>
+	</div>
+
+</body>

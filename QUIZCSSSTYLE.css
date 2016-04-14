@@ -1,0 +1,50 @@
+h2.quizHeader {
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-weight:normal;
+  font-size:25px;
+  margin: 24px 0 12px 0;
+  padding: 0 0 4px 0;
+  border-bottom: 1px solid #a2a2a2;
+  color:#FD060A;
+}
+
+{
+  border: 1px dotted black;
+}
+
+p.question {
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	  font-size:20px;
+  color:#121010;
+  margin-bottom:0px;
+}
+
+
+h2.quizScore{
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size:25px;
+}
+
+label {
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size:14px;
+  color: #424242;
+  vertical-align:top;
+}
+
+div.quizAnswers{
+  font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  font-size:16px;
+  color: #424242;
+  padding: 4px 0 4px 0;
+}
+
+
+
+
+
+
+
+
+
+
